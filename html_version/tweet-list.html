@@ -21,58 +21,7 @@
 </head>
 
 <body>
-  <!-- Nav bar with Tweeter logo -->
-  <nav>
 
-
-    <span className="nav--text">tweeter</span>
-
-    <div className="btn btn--scroll">
-      <a href="#" className="btn__text btn--borderless" title="Compose Tweet">
-        <!-- Compose new tweet button -->
-        <span className="btn--bold">Write</span> a new tweet
-        <br>
-        <i className="btn__icon fas fa-angle-double-down"></i>
-      </a>
-    </div>
-
-  </nav>
-
-  <div className="btn btn--scroll">
-    <a href="#" className="btn__text btn--borderless" title="Compose Tweet">
-      <!-- Compose new tweet button -->
-      <span className="btn--bold">Write</span> a new tweet
-      <br>
-      <i className="btn__icon fas fa-angle-double-down"></i>
-    </a>
-  </div>
-
-  <!-- User Profile -->
-  <aside>
-    <div className="profile">
-      <img className="profile__image" src="./profile-hex.png">
-    </div>
-    <br>
-    <div className="profile__name">
-      <h2><span className="profile--bold">Amy</span> Mansell</h2>
-    </div>
-  </aside>
-
-
-  <!-- Main content container -->
-  <main className="container">
-    <!-- Error container for validation error messages -->
-    <section className="error-container"><i className="fas fa-exclamation-triangle"></i></i>
-      <h4></h4> <i className="fas fa-exclamation-triangle"></i></i>
-    </section>
-    <!-- New tweet input box -->
-    <section className="newtweet">
-      <form method="post" action="/tweets" className="newtweet__form">
-        <textarea className="form__textarea" name="text" placeholder="What are you humming about?"></textarea>
-        <input type="submit" value="Tweet" className="form__input">
-        <span className="form__counter">140</span>
-      </form>
-    </section>
     <!-- Container for tweet list -->
     <section className="tweets">
       <article className="tweet">
