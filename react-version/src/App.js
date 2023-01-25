@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
       <Navigation />
       <Profile />
       <main className="container">
